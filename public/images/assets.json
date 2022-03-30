@@ -1,0 +1,102 @@
+{"frames": {
+
+"car_black.png":
+{
+	"frame": {"x":0,"y":0,"w":22,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":12},
+	"sourceSize": {"w":22,"h":12},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"car_blue.png":
+{
+	"frame": {"x":24,"y":0,"w":22,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":12},
+	"sourceSize": {"w":22,"h":12},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"car_red.png":
+{
+	"frame": {"x":0,"y":14,"w":22,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":12},
+	"sourceSize": {"w":22,"h":12},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"galooeh.png":
+{
+	"frame": {"x":24,"y":14,"w":28,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":26},
+	"sourceSize": {"w":28,"h":26},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"gas.png":
+{
+	"frame": {"x":0,"y":42,"w":7,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":10},
+	"sourceSize": {"w":7,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"grass.png":
+{
+	"frame": {"x":9,"y":42,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"road_bot_lane.png":
+{
+	"frame": {"x":27,"y":42,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"road_mid_lane.png":
+{
+	"frame": {"x":0,"y":60,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"road_one_lane.png":
+{
+	"frame": {"x":18,"y":60,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"road_top_lane.png":
+{
+	"frame": {"x":36,"y":60,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "assets.png",
+	"format": "RGBA8888",
+	"size": {"w":52,"h":76},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ed9e9ea790115e68bf702ad8ee16b4fe:62cd576f0139451a6695dd6b666b45ee:a759b6bbc8381ac9c472b28f589ad0d6$"
+}
+}
