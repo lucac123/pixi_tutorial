@@ -28,7 +28,7 @@ PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 const draw_height = { height: app.view.height };
 const MOVE_SPEED = 5;
 
-let galooeh, state;
+let galooeh, state, cars = [];
 
 loader
 	.add('images/assets.json')
@@ -44,14 +44,32 @@ function setup () {
 	drawGrass(1);
 	drawRoad(4);
 
+	
+	for (let i = 0; i < 12; i++) {
+		cars[i] = drawCharacter('car_red.png', 10-i, i);
+		cars[i].y += 1*SCALE;
+	}
+	
 	galooeh = drawCharacter('galooeh.png', 0, 0);
-
 
 	const left = keyboard("ArrowLeft"),
 		  right = keyboard("ArrowRight"),
 		  up = keyboard("ArrowUp"),
 		  down = keyboard("ArrowDown");
 	
+	left.press = () => {
+		galooeh.x -= BLOCK_SIZE;
+	}
+	right.press = () => {
+		galooeh.x += BLOCK_SIZE;
+	}
+	up.press = () => {
+		galooeh.y -= BLOCK_SIZE;
+	}
+	down.press = () => {
+		galooeh.y += BLOCK_SIZE;
+	}
+	/*
 	left.press = () => {
 		galooeh.vx = -5;
 	};
@@ -83,6 +101,7 @@ function setup () {
 		if (galooeh.vy > 0)
 			galooeh.vy = 0;
 	}
+	*/
 
 	state = play;
 
@@ -94,8 +113,9 @@ let gameLoop = (delta) => {
 }
 
 let play = (delta) => {
-	galooeh.x += galooeh.vx*delta;
-	galooeh.y += galooeh.vy*delta;
+	for(let i = 0; i < cars.length; i++) {
+		cars[i].x -= 1;
+	}
 }
 
 let drawCharacter = (sprite_name, x, y) => {
@@ -191,4 +211,4 @@ function keyboard(value) {
 	};
 	
 	return key;
-  }
+}
